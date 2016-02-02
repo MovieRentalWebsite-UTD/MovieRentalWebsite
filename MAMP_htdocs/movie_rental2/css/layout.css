@@ -1,0 +1,52 @@
+#page2,#movie_list, #movie_category_list, #myCart, #myHis
+{
+    display: none;
+    text-align: center;
+}
+
+.userinfo
+{
+	text-align: center;
+	vertical-align:middle;
+	color: blue;
+	font-size: 25px;
+}
+
+#register
+{
+	cursor: pointer;
+}
+
+
+.product_list_table, .product_list_table tr, .product_list_table th, .product_list_table td, .product_category_list_table, .product_category_list_table tr, .product_category_list_table th, .product_category_list_table td
+, .cartTable, .cartTable th, .cartTable td, .cartTable_title, .myTable_His, .myTable_His th, .myTable_His td{
+	border-bottom: 1px solid;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-left: auto; 
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+.product_list_table tr th:last-child, .product_list_table tr td:last-child, #product_input,#product_update
+.product_category_list_table tr th:last-child, .product_category_list_table tr td:last-child,
+.cartTable tr th:last-child, .cartTable tr td:last-child,
+.cartHis tr th:last-child, .cartHis tr td:last-child,
+{
+{
+	display: none;
+}
+
+#product_list_title
+{
+	text-align: center;
+}
+
+#action, #adventure, #animation, #fantasy, #horror, #romance
+{
+	text-decoration: underline;
+	color: blue;
+}
